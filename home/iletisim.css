@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Istok+Web:wght@400;700&family=Oswald&family=PT+Sans&family=PT+Sans+Narrow&family=Quicksand:wght@300;500&family=Raleway&family=Roboto:wght@300;400;500&family=Sigmar&family=Source+Sans+3&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+/* NAVBAR PART */
+/* Navbar First Part */
+
+.icons{
+    margin: 1rem;
+}
+
+/* Navbar Second Part */
+
+.nav-item {
+    margin-left: auto;
+}
+
+
+#phone-number{
+    font-size: 1.1rem;
+    margin-left: 35rem;
+}
+
+#navbar-content{
+    display: flex;
+    align-items:center;
+}
+
+
+.toogle-items {
+    display: none;
+}
+
+/* Navbar Items For Computers Last Part */
+
+.bottom-nav{
+    text-align: center;
+    
+}
+
+.bottom-nav a{
+    text-decoration: none;
+    color: black;
+    margin: 4rem;
+    font-weight: bold;
+}
+
+.bottom-nav a:hover{
+    color: #005eeb;
+}
+
+
+
+
+
+
+
+
+
+
+/* İLETİSİM CONTAİNER */
+
+.iletisim-container{
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.iletisim-info-container{
+    margin: 40px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iletisim-img{
+   width: 24rem;
+   height: 16rem;
+}
+
+.iletisim-card-container{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.card {
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    --size: clamp(200px, 40vmin, 600px);
+    width: var(--size);
+  
+    position: relative;
+    overflow: hidden;
+    color: #000;
+    transform: translateZ(0);
+    background-color: black;
+    font-size:3px ;
+    text-decoration: none;
+    border-radius: 30%;
+  }
+  
+  .card__img {
+    position: relative;
+    top: 10px;
+    width: 40%;
+    height: 10%;
+    transform: scale(calc(0.8 + (var(--hover, 0) * 0.25)));
+    transition: transform 0.2s;
+  }
+  
+  .card__footer {
+    margin: 0px;
+    font-size: 30px;
+
+   
+  }
+  
+  .card__action {
+    position: absolute;
+    aspect-ratio: 1;
+    width: calc(var(--size) * 0.15);
+    bottom: 30%;
+    right: 1.5rem;
+  
+
+    background: purple;
+    display: grid;
+    place-items: center;
+    border-radius: 0.5rem;
+    background: hsl(0 0% 100% / 0.5);
+  /*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
+    transition: transform 0.2s;
+  }
+  
+  .card__action svg {
+    aspect-ratio: 1;
+    width: 50%;
+  }
+  
+  .card__footer span:nth-of-type(1) {
+    font-size: calc(var(--size) * 0.065);
+  }
+  
+  .card__footer span:nth-of-type(2) {
+    font-size: calc(var(--size) * 0.035);
+  }
+  
+  .card:is(:hover, :focus-visible) {
+    --hover: 1;
+  }
+
+
+/* İLETİSİM FORMU  */
+
+.contact-form-general-container{
+    margin: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+
+}
+.contact-form-first-container{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+
+.contact-form-second-container{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-img{
+    height: 40%;
+    width: 20rem;
+}
+
+.contact-form-first-container h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact-form-first-container h4{
+    font-size: 20px;
+}
+
+#form4Example1{
+    width: 500px;
+}
+
+
+#textArea-2{
+width: 500px;
+}
+
+/* BUTTON */
+.button-18 {
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+  }
+  
+  .button-18:hover,
+  .button-18:focus { 
+    background-color: #16437E;
+    color: #ffffff;
+  }
+  
+  .button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled { 
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
+        
+
+/* FOOTER */
+#footer{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2rem;
+
+}
+.footer-list{
+    margin-left: 10rem;
+}
+
+
+/* NAVBAR RESPONSIVE */
+
+@media (max-width: 1028px) {
+   
+
+    .therapy-info{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+
+    .toogle-items {
+        display: block;
+    }
+
+    .toogle-items {
+        display: block;
+        border-bottom: 0.02rem solid gray;
+    }
+
+    .bottom-nav{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+    
+
+}
+
+
+@media (max-width: 584px) {
+    .icons{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .logo-brand{
+        width: 20rem;
+    }
+
+    .navbar-brand{
+        width: 60%;
+    }
+
+    .therapy-info{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: lighter;
+        justify-content: start;
+    }
+
+    #mail-text{
+        font-size: 0.5rem;
+    }
+
+    #top-nav{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+    
+
+    .toogle-items {
+        display: block;
+        border-bottom: 0.02rem solid gray;
+    }
+
+    .bottom-nav{
+        display: none;
+    }
+
+
+
+    .iletisim-info-container{
+       flex-direction: column;
+    }
+    .iletisim-card-container{
+        flex-direction: column;
+     }
+    .card{
+    
+        --size: clamp(200px, 60vmin, 600px);
+        width: var(--size);
+   
+    }
+    .contact-form-general-container{
+        flex-direction: column;
+    }
+    .contact-form-first-container{
+        width: 70%;
+    }
+    .form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      
+    }
+    #form4Example1{
+        width: 100%;
+    }
+
+    #textArea-2{
+        width: 100%;
+    }
+}

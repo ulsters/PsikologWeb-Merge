@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Istok+Web:wght@400;700&family=Oswald&family=PT+Sans&family=PT+Sans+Narrow&family=Quicksand:wght@300;500&family=Raleway&family=Roboto:wght@300;400;500&family=Sigmar&family=Source+Sans+3&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+.our-team-main-container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.card-text{
+    font-size: 2.3rem;
+}
+
+/* NAVBAR PART */
+/* Navbar First Part */
+
+.icons{
+    margin: 1rem;
+}
+
+/* Navbar Second Part */
+
+.nav-item {
+    margin-left: auto;
+}
+
+
+#phone-number{
+    font-size: 1.1rem;
+    margin-left: 35rem;
+}
+
+#navbar-content{
+    display: flex;
+    align-items:center;
+}
+
+
+.toogle-items {
+    display: none;
+}
+
+/* Navbar Items For Computers Last Part */
+
+.bottom-nav{
+    text-align: center;
+    
+}
+
+.bottom-nav a{
+    text-decoration: none;
+    color: black;
+    margin: 4rem;
+    font-weight: bold;
+}
+
+.bottom-nav a:hover{
+    color: #005eeb;
+}
+
+
+/* OUR TEAM PART */
+.our-team-info{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-size: 45px;
+
+}
+.our-team-img{
+    margin: 10px;
+   height: 11rem;
+   width: 11rem;
+}
+
+
+/* PSİKOLOG CARD PART */
+.blog-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+
+
+.blog-card-inv{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+ 
+    
+}
+
+
+.psikolog-header{
+    font-weight: 500;
+    font-size: 30px;
+}
+.psikolog-attributes{
+    font-size: 1.3rem;
+}
+
+.psikolog-img{
+   
+    border-radius: 50%;
+    display: inline-block;
+    height: 400px;
+    width: 320px;
+   margin-top: 3rem;
+    margin-right: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* NAVBAR RESPONSIVE */
+
+@media (max-width: 1028px) {
+   
+
+    .therapy-info{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+
+    .toogle-items {
+        display: block;
+    }
+
+    .toogle-items {
+        display: block;
+        border-bottom: 0.02rem solid gray;
+    }
+
+    .bottom-nav{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+    
+
+}
+
+
+@media (max-width: 584px) {
+    .icons{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .logo-brand{
+        width: 20rem;
+    }
+
+    .navbar-brand{
+        width: 60%;
+    }
+
+    .therapy-info{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: lighter;
+        justify-content: start;
+    }
+
+    #mail-text{
+        font-size: 0.5rem;
+    }
+
+    #top-nav{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+    
+
+    .toogle-items {
+        display: block;
+        border-bottom: 0.02rem solid gray;
+    }
+
+    .bottom-nav{
+        display: none;
+    }
+
+
+
+    
+
+}
+
+
+/* TEAM INFO RESPONSIVE */
+
+
+@media(max-width: 640px){
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .our-team-info{
+        padding: 0;
+        margin: 0; 
+        font-family: 'PT Sans Narrow', sans-serif;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        flex-direction: column;
+        font-size: 30px;
+    
+    }
+    #team-first-img{
+        font-family: 'PT Sans Narrow', sans-serif;
+        display: none;
+    }
+
+
+}
+
+/* FOOTER */
+#footer{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2rem;
+
+}
+.footer-list{
+    margin-left: 10rem;
+}
+
+
+/* CARDS RESPONSIVE */
+@media (max-width: 640px) {
+    .blog-card-inv {
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+        font-size: 12px; /* Dilediğiniz uygun bir font büyüklüğü belirleyebilirsiniz */
+        width: 100%; /* Genişliği ekrana tam olarak sığacak şekilde ayarladık */
+        padding: 20px; /* Kenar boşlukları ekledik */
+    }
+    .psikolog-img{
+      
+        padding: 0;
+        margin: 0; /* Margin ve padding değerlerini sıfıra çektik */
+        /* Genişliği ekrana tam olarak sığacak şekilde ayarladık */
+    }
+    
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%; /* Genişliği ekrana tam olarak sığacak şekilde ayarladık */
+    }
+    
+    .img {
+        padding: 0;
+        margin: 0; /* Margin ve padding değerlerini sıfıra çektik */
+        width: 100%; /* Genişliği ekrana tam olarak sığacak şekilde ayarladık */
+        box-sizing: border-box; /* Kenar boşlukları içeriğin içine alacak şekilde düzenleme yaptık */
+    }
+}
+
+

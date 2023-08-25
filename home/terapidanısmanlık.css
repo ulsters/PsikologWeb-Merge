@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Istok+Web:wght@400;700&family=Oswald&family=PT+Sans&family=PT+Sans+Narrow&family=Quicksand:wght@300;500&family=Raleway&family=Roboto:wght@300;400;500&family=Sigmar&family=Source+Sans+3&display=swap');
+
+body{
+    margin: 0.05rem;
+    padding: 0.05rem;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+
+/* NAVBAR PART */
+/* Navbar First Part */
+
+.icons{
+    margin: 1rem;
+}
+
+/* Navbar Second Part */
+
+.nav-item {
+    margin-left: auto;
+}
+
+
+#phone-number{
+    font-size: 1.1rem;
+    margin-left: 35rem;
+}
+
+#navbar-content{
+    display: flex;
+    align-items:center;
+}
+
+
+.toogle-items {
+    display: none;
+}
+
+/* Navbar Items For Computers Last Part */
+
+.bottom-nav{
+    text-align: center;
+    
+}
+
+.bottom-nav a{
+    text-decoration: none;
+    color: black;
+    margin: 4rem;
+    font-weight: bold;
+}
+
+.bottom-nav a:hover{
+    color: #005eeb;
+}
+
+/* GUIDE PART */
+
+.therapy-guide-main-container{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.guide-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 12px;
+    width: 80%;
+
+}
+
+.guide-img{
+   
+    height: 15rem;
+    width: 15rem;
+}
+
+
+.guide-card-info h1{
+    font-weight:bolder ;
+}
+#special-guide-img{
+    display: none;
+}
+#special-guide-img2{
+    display: flex;
+}
+
+/* FOOTER */
+#footer{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.2rem;
+
+}
+.footer-list{
+    margin-left: 10rem;
+}
+
+/* NAVBAR RESPONSIVE */
+
+@media (max-width: 1028px) {
+   
+
+    .therapy-info{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.5rem;
+        font-weight: lighter;
+    }
+
+    .toogle-items {
+        display: block;
+    }
+
+    .toogle-items {
+        display: block;
+        border-bottom: 0.02rem solid gray;
+    }
+
+    .bottom-nav{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+    
+
+}
+
+
+@media (max-width: 584px) {
+    .icons{
+        display: none;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .logo-brand{
+        width: 20rem;
+    }
+
+    .navbar-brand{
+        width: 60%;
+    }
+
+    .therapy-info{
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: lighter;
+        justify-content: start;
+    }
+
+    #mail-text{
+        font-size: 0.5rem;
+    }
+
+    #top-nav{
+        display: none;
+    }
+
+    .nav-item{
+        display: none;
+    }
+    
+
+    .toogle-items {
+        display: block;
+        border-bottom: 0.02rem solid gray;
+    }
+
+    .bottom-nav{
+        display: none;
+    }
+
+
+
+    
+
+}
+
+
+/* GUIDE CONTAINER RESPONSIVE */
+
+@media (max-width: 584px){
+
+
+    .guide-card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    flex-direction: column;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+        width: 80%;
+    
+    }
+
+    #special-guide-img{
+        display: flex;
+    }
+    #special-guide-img2{
+        display: none;
+    }
+
+}
